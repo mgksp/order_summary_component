@@ -145,11 +145,15 @@ button {
 .attribution {
   position: absolute;
   bottom: 1rem;
-  font-size: 11px;
+  color: var(--clr-dark-blue);
+  font-size: 1.1rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--clr-bright-blue);
 }
 
 @media (max-width: 375px) {
